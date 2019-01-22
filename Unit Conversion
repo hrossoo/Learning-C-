@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main() {
+  
+  // currencies
+  double mex, guat, salv;
+
+  
+  // how much do you have in:
+  std::cout << "Enter number of Mexican Pesos:\n";
+  std::cin >> mex;
+  std::cout << "Enter number of Guatemalan Quetzals:\n";
+  std::cin >> guat;
+  std::cout << "Enter number of Salvadoran Colóns:\n";
+  std::cin >> salv;
+  //total 
+  double total = (mex * 0.049) + (guat * 0.13) + (salv * 0.0016);
+  std::cout << "Converting your currency to USD.\n";
+  std::cout << "Total USD = " << total << " dollars.\n";
+  
+  
+  
+  
+}
