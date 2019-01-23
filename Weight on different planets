@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main() {
+  
+  // What is your earth weight?
+  int weight ();
+  std::cout << "What is your Earth weight?\n";
+  std::cin >> weight
+  
+  std::cout << "Type the respective planet number you would like to fight on:\n";
+  std::cout << "1 - Venus\n";
+  std::cout << "2 - Mars\n";
+  std::cout << "3 - Jupiter\n";
+  std::cout << "4 - Saturn\n";
+  std::cout << "5 - Uranus\n";
+  std::cin >> 
+  // Relative gravities
+  double 1 = (weight * 0.78);
+  double 2 = (weight * 0.39);
+  double 3 = (weight * 2.65);
+  double 4 = (weight * 1.17);
+  double 5 = (weight * 1.05);
+  
+  
+  
+}
